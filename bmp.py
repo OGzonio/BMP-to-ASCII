@@ -30,6 +30,6 @@ def read_bmp(filename):
     return pixels
 
 
-pixels = read_bmp('rgb.bmp')
+pixels = read_bmp('filename.bmp')
 for i in range(len(pixels)):
     print (type(pixels[i]))
